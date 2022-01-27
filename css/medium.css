@@ -1,0 +1,87 @@
+.section {
+  padding: 4rem 1rem;
+}
+
+.section-title {
+  font-size: 3.2rem;
+}
+
+.header-bg .header-text .main-title {
+  font-size: 3.6rem;
+}
+
+.header-bg .header-text .sub-title {
+  font-size: 2.2rem;
+}
+
+.header-bg .header-text a .header-btn {
+  padding: .8rem 3rem;
+  font-size: 2rem;
+}
+
+.header-bg .arrows-box .fa-caret-down {
+  font-size: 3rem;
+}
+
+.car-types .car-types-box {
+  padding: 2rem;
+  font-size: 2.4rem;
+}
+
+.our-cars .choose-cars-type-btns {
+  flex-direction: row;
+}
+
+.our-cars .choose-cars-type-btns .choose-cars-type-btn {
+  margin: 0.5rem;
+  padding: .5rem 2rem;
+}
+
+.our-cars .cars-section {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.our-cars .car-card .card-img .car-img {
+  height: 210px;
+  width: 315px;
+  object-fit: cover;
+}
+
+.achievements .achievements-wrapper {
+  margin-top: 3rem;
+}
+
+.contact .shadow {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contact .contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contact .contact-box {
+  padding: 1rem;
+}
+
+.contact .contact-box h4 {
+  font-size: 2.4rem;
+}
+
+.contact .contact-box p {
+  font-size: 1.8rem;
+}
+
+.contact .contact-box a {
+  padding: 1.2rem;
+  font-size: 2.4rem;
+}
+
+.contact .social-media-box {
+  width: 100%;
+  order: -1;
+}
+/*# sourceMappingURL=medium.css.map */

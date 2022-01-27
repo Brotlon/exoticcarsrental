@@ -1,0 +1,95 @@
+.section {
+  padding: 6rem 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.navbar {
+  height: 52px;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.navbar .container-lg {
+  padding-right: 1rem;
+}
+
+.navbar .navbar-brand {
+  font-size: 2.2rem;
+}
+
+.navbar .nav-link {
+  font-size: 1.8rem;
+}
+
+.aboutus .aboutus-box i {
+  font-size: 3.4rem;
+}
+
+.aboutus .aboutus-box .aboutus-box-title {
+  font-size: 1.9rem;
+}
+
+.aboutus .aboutus-box .aboutus-box-text {
+  font-size: 1.6rem;
+}
+
+.car-types {
+  background-image: url("../img/car-types_1920.jpg");
+}
+
+.car-types .car-types-box {
+  padding: 2.5rem;
+  font-size: 2.7rem;
+}
+
+.contact {
+  background-image: url("../img/contact_1920.jpg");
+}
+
+.contact .contact-wrapper {
+  align-items: center;
+}
+
+.contact .contact-box {
+  margin-bottom: 0;
+  padding: 1rem;
+}
+
+.contact .contact-box h4 {
+  font-size: 2.6rem;
+}
+
+.contact .contact-box p {
+  font-size: 2rem;
+}
+
+.contact .contact-box a {
+  font-size: 2.6rem;
+}
+
+.contact .social-media-box {
+  width: auto;
+  order: 0;
+}
+
+@media (min-width: 1200px) {
+  .section {
+    padding: 8rem 1rem;
+  }
+  .section-title {
+    font-size: 3.6rem;
+  }
+  .car-types .car-types-box {
+    font-size: 3rem;
+  }
+  .achievements .achievements-wrapper {
+    margin-top: 4rem;
+  }
+  .achievements .achievements-wrapper .achievements-box {
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=large.css.map */

@@ -1,0 +1,27 @@
+[data-aos="neon-effect"] {
+  box-shadow: 0 0 0 #fff;
+  transition-property: box-shadow;
+}
+
+[data-aos="neon-effect"].aos-animate {
+  box-shadow: 0 0 10px #fff;
+}
+
+@media screen and (min-width: 768px) {
+  [data-aos="neon-effect"] {
+    box-shadow: 0 0 0 #fff;
+  }
+  [data-aos="neon-effect"].aos-animate {
+    box-shadow: 0 0 20px #fff;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  [data-aos="neon-effect"] {
+    box-shadow: 0 0 0 #fff;
+  }
+  [data-aos="neon-effect"].aos-animate {
+    box-shadow: 0 0 30px #fff;
+  }
+}
+/*# sourceMappingURL=aos.css.map */

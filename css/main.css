@@ -1,0 +1,481 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-padding-top: 52px;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #333;
+}
+
+.section {
+  padding: 3rem 1rem;
+}
+
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: -10;
+}
+
+.title-wrapper {
+  display: flex;
+}
+
+.section-title {
+  display: inline-block;
+  margin: 0 auto 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-bottom: 4px solid #daca7c;
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.visibility {
+  visibility: hidden;
+}
+
+.header-bg {
+  position: relative;
+  z-index: 0;
+  height: 100vh;
+  background-image: url("../img/header_1280.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.header-bg .header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-shadow: 2px 2px 3px #000;
+  text-align: center;
+}
+
+.header-bg .header-text .main-title {
+  margin-bottom: 1rem;
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header-bg .header-text .sub-title {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.header-bg .header-text a {
+  display: block;
+}
+
+.header-bg .header-text a .header-btn {
+  padding: .5rem 2rem;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  transition: background-color .3s, color .3s;
+}
+
+.header-bg .header-text a .header-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.header-bg .arrows-box {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  padding-top: 3rem;
+  width: 100%;
+  font-size: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header-bg .arrows-box .fa-caret-down {
+  display: inline-block;
+  padding: 0 .3rem;
+  color: #fff;
+  font-size: 2.4rem;
+}
+
+.navbar-dark .navbar-toggler {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 2rem;
+  color: #fff;
+  border: none;
+  font-size: 2.2rem;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #daca7c;
+}
+
+.navbar {
+  text-shadow: 2px 2px 3px #000;
+  transition: background-color .2s;
+}
+
+.navbar .container-lg {
+  padding-right: 0;
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.aboutus {
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+.aboutus .aboutus-wrapper {
+  margin-top: 2.5rem;
+}
+
+.aboutus .aboutus-box {
+  margin-bottom: 3rem;
+  padding: 0 1rem;
+  text-align: center;
+  cursor: default;
+  transition: transform .1s;
+}
+
+.aboutus .aboutus-box i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.aboutus .aboutus-box .aboutus-box-title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.aboutus .aboutus-box .aboutus-box-text {
+  font-size: 1.5rem;
+}
+
+.aboutus .aboutus-box:hover {
+  transform: scale(1.1);
+}
+
+.car-types {
+  position: relative;
+  z-index: 0;
+  background-image: url("../img/car-types_640.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.car-types .shadow {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.car-types .car-types-box {
+  padding: 1rem;
+  border: 2px solid #fff;
+  font-size: 1.8rem;
+  text-align: center;
+  cursor: default;
+  transition: box-shadow .5s;
+}
+
+.car-types .car-types-box p {
+  margin-bottom: 0;
+}
+
+.our-cars {
+  background-color: #e9ecef;
+}
+
+.our-cars .choose-cars-type-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-cars .choose-cars-type-btns .choose-cars-type-btn {
+  margin-bottom: 0.5rem;
+  padding: .5rem 2rem;
+  border-radius: 10px;
+  font-size: 2rem;
+  transition: background-color .3s;
+}
+
+.our-cars .choose-cars-type-btns .choose-cars-type-btn:hover {
+  background-color: #daca7c8c;
+}
+
+.our-cars .active-btn {
+  background-color: #daca7c;
+}
+
+.our-cars h3 {
+  display: none;
+  margin-top: 5rem;
+  margin-bottom: 0;
+  font-size: 3rem;
+}
+
+.our-cars .active-heading {
+  display: block;
+}
+
+.our-cars .cars-section {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.our-cars .active-section {
+  display: flex;
+}
+
+.our-cars .car-card {
+  margin-top: 2rem;
+  max-width: 320px;
+  border: 1px solid #000;
+  transition: transform .1s;
+}
+
+.our-cars .car-card .card-header {
+  background-color: #000;
+}
+
+.our-cars .car-card .card-header .car-name {
+  margin-bottom: 0;
+  color: #fff;
+  color: #daca7c;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.our-cars .car-card .card-img .car-img {
+  width: 100%;
+}
+
+.our-cars .car-card .card-body {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+
+.our-cars .car-card .card-body .right-side {
+  text-align: center;
+  font-weight: bold;
+}
+
+.our-cars .car-card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.our-cars .car-card .card-footer p {
+  margin-bottom: 0;
+  font-size: 1.6rem;
+}
+
+.our-cars .car-card .card-footer .price {
+  margin-bottom: 0;
+  font-size: 2.6rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.our-cars .car-card:hover {
+  transform: scale(1.02);
+}
+
+.achievements {
+  background-color: #fff;
+}
+
+.achievements .achievements-wrapper {
+  text-align: center;
+}
+
+.achievements .achievements-wrapper .achievements-box {
+  margin-bottom: 4rem;
+}
+
+.achievements .achievements-wrapper .achievements-box .achievements-icon {
+  margin-bottom: .5rem;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+
+.achievements .achievements-wrapper .achievements-box .achievements-icon i {
+  font-size: 6rem;
+}
+
+.achievements .achievements-wrapper .achievements-box .achievements-number {
+  margin-bottom: 0.5rem;
+  font-size: 2.4rem;
+}
+
+.achievements .achievements-wrapper .achievements-box .achievements-text {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.contact {
+  position: relative;
+  z-index: 0;
+  background-image: url("../img/contact_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ddd;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.contact .shadow {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.contact .contact-wrapper {
+  margin-top: 2rem;
+}
+
+.contact .contact-box {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.contact .contact-box h4 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact .contact-box p {
+  font-size: 1.6rem;
+}
+
+.contact .contact-box a {
+  padding: 1rem;
+  color: #eee;
+  font-size: 2rem;
+  text-shadow: 0 0 5px #000;
+  transition: .2s;
+}
+
+.contact .contact-box a:hover {
+  color: #fff;
+  text-shadow: 0 0 18px #fff;
+}
+
+.footer {
+  padding: 1.5rem;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 0;
+  font-size: 1.6rem;
+}
+
+@media (min-width: 351px) {
+  .header-bg .header-text .main-title {
+    font-size: 2.8rem;
+  }
+  .car-types .car-types-box {
+    font-size: 1.9rem;
+  }
+  .our-cars .car-card .card-header .car-name {
+    font-size: 2.4rem;
+  }
+  .our-cars .car-card .card-body {
+    font-size: 1.6rem;
+  }
+  .our-cars .car-card .card-footer p {
+    font-size: 1.8rem;
+  }
+  .our-cars .car-card .card-footer .price {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 410px) {
+  .header-bg .header-text .main-title {
+    font-size: 3rem;
+  }
+  .car-types .car-types-box {
+    font-size: 2rem;
+  }
+}
+
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0);
+  }
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0);
+  }
+  90% {
+    transform: translate3d(0, -4px, 0);
+  }
+}
+/*# sourceMappingURL=main.css.map */

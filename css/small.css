@@ -1,0 +1,37 @@
+.header-bg {
+  background-image: url("../img/header_1920.jpg");
+}
+
+.header-bg .header-text .sub-title {
+  font-size: 2rem;
+}
+
+.header-bg .arrows-box .fa-caret-down {
+  font-size: 2.6rem;
+}
+
+.aboutus {
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+.aboutus .aboutus-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.car-types {
+  background-image: url("../img/car-types_1280.jpg");
+}
+
+.car-types .car-types-box {
+  padding: 1.5rem;
+  font-size: 2.2rem;
+}
+
+.achievements .achievements-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=small.css.map */
